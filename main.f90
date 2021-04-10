@@ -10,9 +10,7 @@ program main
   alpha=alpha*pi/180.0d0
   beta=beta*pi/180.0d0
   gamma=gamma*pi/180.0d0
-  call v01(a, b, c, alpha, beta, gamma, v1)
-  call v02(a, b, c, alpha, beta, gamma, v2)
-  call v03(a, b, c, alpha, beta, gamma, v3)
+  call v00(a, b, c, alpha, beta, gamma, v1, v2, v3)
   write(*,10) (v1(i), i=1, 3)
   write(*,10) (v2(i), i=1, 3)
   write(*,10) (v3(i), i=1, 3)
