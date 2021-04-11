@@ -1,7 +1,7 @@
 subroutine v00(a, b, c, alpha, beta, gamma, v1, v2, v3)
   implicit none
   real(8) a, b, c, alpha, beta, gamma
-  real(8) v1(3)
+  real(8) v1(3), v2(3), v3(3)
   v1=0.0d0
   v2=0.0d0
   v3=0.0d0
