@@ -19,6 +19,6 @@ program main
   write(*,10) (v1(i)/a, i=1, 3)
   write(*,10) (v2(i)/a, i=1, 3)
   write(*,10) (v3(i)/a, i=1, 3)
-  write(*,*) 'value of cellmd(1) = ', a/a2b 
+  write(*,*) 'value of celldm(1) = ', a/a2b 
   10 format(3f18.10)
 end program main
