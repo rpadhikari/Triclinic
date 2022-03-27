@@ -2,7 +2,7 @@ program main
   implicit none
   integer(2) i
   real(8) a, b, c, alpha, beta, gamma
-  real(8), parameter :: a2b=0.5291770d0
+  real(8), parameter :: a2b=0.5291772490d0 ! a.u.= 0.529177249 A, 1.0A = 1.8897259886 Bohr
   real(8) v1(3), v2(3), v3(3)
   real(8), parameter :: pi=3.14159265358979320d0
   open(1, file='in.dat',action='read', status='old')
